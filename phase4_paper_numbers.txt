@@ -1,0 +1,135 @@
+=========================================================================================================
+PHASE 4: COMPLETE PHYSICAL MODELING & PUBLICATION REPORT FOR TYC 4517-88-1 (TIC 397073349)
+Periodogram Engine: Astropy Fast O(N log N) | Start Peak RAM: 355.9 MB
+=========================================================================================================
+
+[1] GAIA DR3 ASTROMETRIC, STELLAR & ORBITAL PARAMETERS
+  source_id                     : 555926586677752960
+  ra                            : 54.613980049872005
+  dec                           : 79.34350268825605
+  l                             : 130.4148698285385
+  b                             : 18.98643784685197
+  parallax                      : 1.687112001867416
+  parallax_error                : 0.011869555
+  parallax_over_error           : 142.13776
+  pmra                          : 12.262580160900765
+  pmra_error                    : 0.012507558
+  pmdec                         : -12.917226184700525
+  pmdec_error                   : 0.012974393
+  ruwe                          : 0.79920894
+  ipd_frac_multi_peak           : 0
+  non_single_star               : 2
+  phot_g_mean_mag               : 11.531674
+  phot_bp_mean_mag              : 11.778843
+  phot_rp_mean_mag              : 11.127526
+  bp_rp                         : 0.65131664
+  phot_bp_rp_excess_factor      : 1.1883278
+  radial_velocity               : 9.385563
+  radial_velocity_error         : 21.994818
+  rv_nb_transits                : 18
+  rv_expected_sig_to_noise      : 38.658497
+  vbroad                        : 42.591507
+  vbroad_error                  : 90.75798
+  vbroad_nb_transits            : 11
+  teff_gspphot                  : 6536.493
+  teff_gspphot_lower            : 6529.0874
+  teff_gspphot_upper            : 6544.091
+  logg_gspphot                  : 3.9769
+  mh_gspphot                    : -0.3546
+  ag_gspphot                    : 0.165
+  ebpminrp_gspphot              : 0.0892
+  radius_gspphot                : 2.0437
+  radius_flame                  : 2.0559163
+  radius_flame_lower            : 2.0129454
+  radius_flame_upper            : 2.0994198
+  lum_flame                     : 6.9499254
+  lum_flame_lower               : 6.8655434
+  lum_flame_upper               : 7.0459795
+  mass_flame                    : 1.4908587
+  mass_flame_lower              : 1.4506173
+  mass_flame_upper              : 1.5311695
+  age_flame                     : 2.1046216
+  activityindex_espcs           : 0.03303121
+  activityindex_espcs_uncertainty: 0.0010315935
+  nss_solution_type             : SB1
+  period                        : 2.627958693364049
+  period_error                  : 5.9932252e-05
+  t_periastron                  : -1.1407224499733348
+  t_periastron_error            : 0.06924421
+  eccentricity                  : 0.0766532119546337
+  eccentricity_error            : 0.026645383
+  center_of_mass_velocity       : 13.11924439085611
+  center_of_mass_velocity_error : 1.0211194
+  semi_amplitude_primary        : 93.9547669069974
+  semi_amplitude_primary_error  : 1.7495048
+  arg_periastron                : 256.03858537585256
+  arg_periastron_error          : 10.077266
+  significance                  : 53.703636
+  goodness_of_fit               : 2.963053
+  efficiency                    : 0.37228468
+  dist_pc                       : 592.73 +/- 4.17 pc
+  M_G (raw / dereddened)        : 2.667 / 2.502 mag (A_V_Gaia ~ 0.197)
+
+[2] 60-ARCSEC CROWDING AUDIT
+  Neighbors within 42" (2 TESS pix): N=6, total RP flux = 2.70% of target
+  Brightest neighbor <= 42": sep=32.3", G=16.46, flux_ratio=1.21%
+  TESS-SPOC CROWDSAP (7 sectors): mean=0.9754 (range 0.9716 - 0.9792)
+
+[3] MULTI-WAVELENGTH ARCHIVAL SED (18 BANDS) & X-RAY CHECK
+     band  lam_um       mag  mag_err
+GALEX_FUV  0.1539 19.765100   0.1462
+GALEX_NUV  0.2316 15.482200   0.0250
+ Tycho_BT  0.4203 12.357000   0.1470
+  APASS_B  0.4361 12.014000   0.0840
+  APASS_g  0.4640 11.785000   0.0500
+  Gaia_BP  0.5110 11.778843   0.0250
+ Tycho_VT  0.5319 11.510000   0.0880
+  APASS_V  0.5448 11.566000   0.0310
+  APASS_r  0.6122 11.497000   0.0470
+   Gaia_G  0.6218 11.531674   0.0250
+  APASS_i  0.7439 11.419000   0.0610
+  Gaia_RP  0.7769 11.127526   0.0250
+  2MASS_J  1.2350 10.696000   0.0250
+  2MASS_H  1.6620 10.480000   0.0270
+ 2MASS_Ks  2.1590 10.430000   0.0250
+  WISE_W1  3.3526 10.396000   0.0250
+  WISE_W2  4.6028 10.413000   0.0250
+  WISE_W3 11.5608 10.294000   0.0610
+  ROSAT 2RXS match within 30" : NONE (non-detection)
+  Single-star BB fit : Teff = 6113 +/- 408 K | R_eff = 2.201 +/- 0.094 Rsun | A_V = 0.031 +/- 0.240 | chi2/dof = 182.6/15
+  Two-star BB fit    : T1=6113 K, R1=2.01 Rsun + T2=6113 K, R2=0.91 Rsun, A_V=0.031 | chi2 = 182.6
+  Equal-luminosity twin radius (R_eff/sqrt(2)) = 1.556 Rsun
+
+[4] EXACT ORBITAL EPHEMERIS & GAIA-TESS PHASE ALIGNMENT (BJD 2457389.0 ZERO-POINT)
+  Gaia DR3 SB1 Period               : 2.627959 +/- 0.000060 d
+  TESS Refined Period (2f_orb)      : 2.6278035 +/- 0.0000340 d (sector-timing 1-sigma)
+  Period difference (TESS - Gaia)   : -13.41 s (-2.59 sigma_Gaia)
+  Orbits elapsed Gaia -> TESS       : 1058 cycles | Gaia phase prop err = +/-0.024 cyc
+  Predicted RV Quadrature (mod 0.5) : 0.2648 | Observed Ellipsoidal Max (mod 0.5): 0.3220
+  Predicted Conjunction   (mod 0.5) : 0.0450 | Observed Ellipsoidal Min (mod 0.5): 0.0720
+  Phase Offset (Obs Max - Pred Quad): +0.0572 cyc (+2.37 sigma of Gaia prop err)
+  Ellipsoidal A2 (sector mean)      : 1821.3 +/- 71.3 ppm (sector scatter = 201.6 ppm; global = 1802.7 ppm)
+
+[5] DOPPLER BEAMING & STARSPOT DIAGNOSTICS
+  Binary mass function f(M)            : 0.2239 +/- 0.0126 Msun
+  Predicted undiluted beaming (L2=0)   : 831 ppm (B_TESS=2.65, BB=2.98)
+  Observed sector-mean coherent A1_vec : 255.9 +/- 103.9 ppm (at phi=0.997 vs RV approach 0.812)
+  Projected beaming component along RV : +101.9 +/- 133.1 ppm
+  Low-spot floor (4 quietest sectors)  : A1 = 134.9 - 197.0 ppm
+
+[6] PHYSICAL SOLUTIONS FOR COMPANION MASS M2 & INCLINATION i
+  Adopted primary M1 = 1.49 Msun, R_eff = 2.06 Rsun (SED R_eff = 2.20 Rsun)
+  Absolute minimum companion mass (i = 90 deg) : M2_min = 1.164 Msun
+  --- SCENARIO A: DARK COMPACT COMPANION (L2 = 0) ---
+    Matches A2=1821 ppm at i = 25.0 deg => M2 = 5.00 Msun (q = 3.35, a = 14.9 Rsun)
+    Predicted Doppler beaming = 831 ppm
+  --- SCENARIO B: LUMINOUS MS SECONDARY (Flux Dilution + Beaming Cancellation) ---
+    Matches A2=1821 ppm at i = 63.5 deg => M2 = 1.37 Msun (q = 0.92, R1=1.52, R2=1.30 Rsun, L2/Ltot=0.45)
+    Predicted net Doppler beaming = 64 ppm
+    No-eclipse ceiling at this M2 : i < 75.6 deg
+  --- GAIA DR3 VBROAD ROTATIONAL INCLINATION CHECK ---
+    Gaia vbroad = 42.6 +/- 90.8 km/s | v_sync(R_eff) = 39.6 km/s -> sin(i) ~ 1.08
+    v_sync(R1_lum=1.52) = 29.3 km/s -> sin(i) ~ 1.45
+
+[DONE] Peak RAM used: 418.4 MB
+[SAVED] phase4_paper_numbers.txt, tic397073349_sed_photometry.csv, and fig1..fig4 (*.png)
